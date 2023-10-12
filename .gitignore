@@ -1,0 +1,10 @@
+# first, ignore all files
+*
+
+# now, allow specific files
+!*.html
+!.css
+
+!.md
+!LICENCE
+!.gitignore
