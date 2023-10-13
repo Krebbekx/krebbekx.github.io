@@ -3,8 +3,8 @@
 
 # now, allow specific files
 !*.html
-!.css
+!*.css
 
-!.md
+!*.md
 !LICENCE
 !.gitignore
