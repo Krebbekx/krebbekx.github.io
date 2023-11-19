@@ -44,8 +44,16 @@ h1 {
 
 main {
     margin-left: 140px; /* Same width as the sidebar + left position in px */
-    /*/font-size: 28px; /* Increased text to enable scrolling */
     padding: 0px 10px;
+}
+
+header {
+    margin-left: 140px; /* Same width as the sidebar + left position in px */
+    padding: 0px 10px;
+    color: darkslategrey;
+    font-size: 40px;
+    padding-top: 10px;
+    width: 100%;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
