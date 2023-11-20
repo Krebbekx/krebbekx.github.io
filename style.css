@@ -3,13 +3,9 @@
     font-size: 10pt;
 }
 
-/* h1 {
-    color: maroon;
-    font-size: 40px;
-} */
-
 body {
     background: powderblue;
+    background-color: white;
 }
   
 h1 {
@@ -25,7 +21,7 @@ h1 {
     z-index: 1;
     top: 20px;
     left: 10px;
-    background: white;
+    background: lightgrey;
     overflow-x: hidden;
     padding: 8px 0;
   }
@@ -34,12 +30,12 @@ h1 {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 25px;
-    color: darkslategrey;
+    color: black;
     display: block;
 }
 
 .sidebar a:hover {
-    color: grey;
+    color: white;
 }
 
 main {
