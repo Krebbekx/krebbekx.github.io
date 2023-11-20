@@ -1,5 +1,4 @@
 * {
-    font-family: Verdana;
     font-size: 10pt;
 }
 
@@ -50,7 +49,7 @@ main {
 header {
     padding: 0px 10px;
     color: darkslategrey;
-    font-size: 40px;
+    font-size: 60px;
     padding-top: 10px;
     width: 100%;
 } 
