@@ -4,7 +4,6 @@
 }
 
 body {
-    background: powderblue;
     background-color: white;
 }
   
@@ -15,45 +14,43 @@ h1 {
     width: 100%;
 }
 
-.sidebar {
-    width: 130px;
-    position: fixed;
-    z-index: 1;
-    top: 20px;
-    left: 10px;
-    background: lightgrey;
-    overflow-x: hidden;
-    padding: 8px 0;
-  }
-
-.sidebar a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: black;
-    display: block;
+nav {
+    margin: 5px;
 }
 
-.sidebar a:hover {
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightgrey;
+}
+
+nav li {
+    display: inline;
+    float: left;
+} 
+
+nav li a {
+    display: block;
+    text-align: center;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
     color: white;
 }
 
 main {
-    margin-left: 140px; /* Same width as the sidebar + left position in px */
     padding: 0px 10px;
 }
 
 header {
-    margin-left: 140px; /* Same width as the sidebar + left position in px */
     padding: 0px 10px;
     color: darkslategrey;
     font-size: 40px;
     padding-top: 10px;
     width: 100%;
-}
-
-/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-/* @media screen and (max-height: 450px) {
-    .sidebar {padding-top: 15px;}
-    .sidebar a {font-size: 18px;}
-} */
+} 
