@@ -8,7 +8,7 @@ h1 {
     color: darkslategrey;
     font-size: 2em;
     padding-top: 10px;
-    width: 100%;
+    /* width: 100%; */
 }
 
 nav {
@@ -51,5 +51,5 @@ header {
     color: darkslategrey;
     font-size: 60px;
     padding-top: 10px;
-    width: 100%;
+    /* width: 100%; */
 } 
