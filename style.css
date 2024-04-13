@@ -42,7 +42,7 @@ nav li a:hover {
 
 main {
     padding: 0px 10px;
-    min-width: 400px;
+    /* min-width: 400px; */
     max-width: 1000px;
 }
 
