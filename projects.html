@@ -8,24 +8,19 @@
 		<meta name="author" content="Julius Krebbekx">
 
 		<!-- This is code from https://docs.mathjax.org/en/latest/web/start.html -->
+		
 		<!-- In order to support older browsers -->
 		<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 		<!-- Allow for inline math -->
-		<!-- <script>
+		<script>
 			MathJax = {
 			  tex: {
 				inlineMath: [['$', '$'], ['\\(', '\\)']]
-			  },
-			  svg: {
-				fontCache: 'global'
 			  }
 			};
-			</script>
-		<script type="text/javascript" id="MathJax-script" async
-			src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
-		</script> -->
+		</script>
 
-		<!-- Getting the latest version -->
+		<!-- Getting the latest MathJax version -->
 		<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 
@@ -60,7 +55,7 @@
 				<p>
 					Writing a sample equation $$g^h(x) = |x| + 10 x^6 - \int_{-\infty}^x h(y) dy .$$ 
 					
-					<!-- Does this work $x=y$ -->
+					Inline math $y=x(r)$ now works as well. 
 				</p>
 			</article>
 		</main>
