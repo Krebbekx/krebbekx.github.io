@@ -13,6 +13,8 @@ h1 {
 
 nav {
     margin: 5px;
+    /* float: left; */
+    /* width: 100%; */
 }
 
 nav ul {
@@ -53,3 +55,19 @@ header {
     padding-top: 10px;
     /* width: 100%; */
 } 
+
+.topbar {
+    /* float: left; */
+    display: inline;
+}
+
+picture {
+    margin: 5px;
+    padding: 0px;
+    width: auto;
+    float: left;
+}
+
+.topbardiv {
+    width: 100%;
+}

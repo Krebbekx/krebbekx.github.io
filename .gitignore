@@ -8,3 +8,5 @@
 !*.md
 !LICENCE
 !.gitignore
+
+!*.jpeg
