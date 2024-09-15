@@ -9,14 +9,10 @@ h1 {
     color: darkslategrey;
     font-size: 2em;
     padding-top: 10px;
-    /* width: 100%; */
 }
 
 nav {
     margin: 0px;
-    /* float: left; */
-    /* width: 100%; */
-    /* display: inline-block; */
 }
 
 nav ul {
@@ -28,8 +24,8 @@ nav ul {
 }
 
 nav li {
-    display: inline;
-    float: left;
+    display: inline-block;
+    /* float: left; */
 } 
 
 nav li a {
@@ -59,16 +55,11 @@ header {
 } 
 
 .topbardiv {
-    /* display: inline; */
-    margin: 0px;
     width: 100%;
 }
 
 picture {
     margin: 0px 5px 0px 0px;
-    padding: 0px;
-    width: auto;
-    /* float: left; */
     display: inline-block;
     vertical-align:top;
 }
