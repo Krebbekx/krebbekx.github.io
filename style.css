@@ -69,3 +69,9 @@ picture {
     width: auto;
     vertical-align:top;
 }
+
+footer {
+    font-size: 9pt;
+    color: grey;
+    text-align: center;
+}
