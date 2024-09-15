@@ -54,7 +54,7 @@ header {
     /* width: 100%; */
 } 
 
-.topbardiv {
+#topbardiv {
     width: 100%;
 }
 
@@ -64,7 +64,7 @@ picture {
     vertical-align:top;
 }
 
-.bar_and_title {
+#nav_and_header {
     display: inline-block;
     width: auto;
     vertical-align:top;
