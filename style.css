@@ -41,13 +41,13 @@ nav li a:hover {
 }
 
 main {
-    padding: 0px 10px;
+    padding: 0px 0px;
     /* min-width: 400px; */
     max-width: 1000px;
 }
 
 header {
-    padding: 0px 10px;
+    padding: 0px 0px;
     color: darkslategrey;
     font-size: 60px;
     padding-top: 10px;
