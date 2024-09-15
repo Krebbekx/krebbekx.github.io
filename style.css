@@ -2,6 +2,7 @@ body {
     background-color: white;
     font-size: 12pt;
     font-family: Verdana;
+    margin: 8px;
 }
   
 h1 {
@@ -12,9 +13,10 @@ h1 {
 }
 
 nav {
-    margin: 5px;
+    margin: 0px;
     /* float: left; */
     /* width: 100%; */
+    /* display: inline-block; */
 }
 
 nav ul {
@@ -56,18 +58,23 @@ header {
     /* width: 100%; */
 } 
 
-.topbar {
-    /* float: left; */
-    display: inline;
+.topbardiv {
+    /* display: inline; */
+    margin: 0px;
+    width: 100%;
 }
 
 picture {
     margin: 0px 5px 0px 0px;
     padding: 0px;
     width: auto;
-    float: left;
+    /* float: left; */
+    display: inline-block;
+    vertical-align:top;
 }
 
-.topbardiv {
-    width: 100%;
+.bar_and_title {
+    display: inline-block;
+    width: auto;
+    vertical-align:top;
 }
