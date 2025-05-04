@@ -3,4 +3,14 @@ layout: page
 title: Publications
 ---
 
-List here publications with links to arXiv and such.
+# Under Review
+- CDC paper
+
+# 2025
+- ECC paper
+
+# 2024
+- Polarization
+
+# 2023
+- Tribonacci
