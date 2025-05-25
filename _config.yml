@@ -3,7 +3,6 @@ title:               Julius P. J. Krebbekx
 tagline:             'Personal Webpage'
 description:         PhD student in control theory and engineering. Mathematician and physicist by training
 url:                 https://krebbekx.github.io
-#sbaseurl:             ''
 paginate:            5
 #paginate_path:       "/blog/page:num/"
 permalink:           pretty
