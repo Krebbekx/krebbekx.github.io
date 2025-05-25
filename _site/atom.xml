@@ -2,9 +2,9 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Julius P. J. Krebbekx</title>
- <link href="http://localhost:4000/atom.xml" rel="self"/>
- <link href="http://localhost:4000/"/>
- <updated>2025-05-25T21:45:54+02:00</updated>
+ <link href="http://localhost:4000//atom.xml" rel="self"/>
+ <link href="http://localhost:4000//"/>
+ <updated>2025-05-25T21:52:18+02:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Julius P.J. Krebbekx</name>
@@ -16,7 +16,7 @@
    <title>First post.</title>
    <link href="http://localhost:4000/2025/05/04/start-webpage/"/>
    <updated>2025-05-04T00:00:00+02:00</updated>
-   <id>http://localhost:4000/2025/05/04/start-webpage</id>
+   <id>http://localhost:4000//2025/05/04/start-webpage</id>
    <content type="html">&lt;p&gt;First post on website!&lt;/p&gt;
 </content>
  </entry>
