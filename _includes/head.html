@@ -36,4 +36,21 @@
     ga('send', 'pageview');
   </script>
   {% endif %}
+
+  <!-- This is code from https://docs.mathjax.org/en/latest/web/start.html -->
+		
+	<!-- In order to support older browsers -->
+	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+	<!-- Allow for inline math -->
+  <script>
+    MathJax = {
+      tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
+      }
+    };
+  </script>
+
+	<!-- Getting the latest MathJax version -->
+	<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
 </head>

@@ -28,6 +28,23 @@
   <link rel="alternate" type="application/rss+xml" title="RSS" href="http://localhost:4000/atom.xml">
 
   
+
+  <!-- This is code from https://docs.mathjax.org/en/latest/web/start.html -->
+		
+	<!-- In order to support older browsers -->
+	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+	<!-- Allow for inline math -->
+  <script>
+    MathJax = {
+      tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
+      }
+    };
+  </script>
+
+	<!-- Getting the latest MathJax version -->
+	<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
 </head>
 
 
@@ -120,7 +137,31 @@
       <div class="container content">
         <div class="page">
   <h1 class="page-title">Research</h1>
-  <p>Write here about PhD research.</p>
+  <h1 id="motivation">Motivation</h1>
+
+<p>My PhD project is about developing tools to <em>shape the performance of nonlinear control systems</em>. In the case of Linear and Time-Invariant (LTI) systems, characterizing stability is done in terms of poles/eigenvalues. Additionally, engineers have access to an intuitive description of the <em>performance</em>, or desired behavior, in terms of the frequency-domain.</p>
+
+<p>When systems are non-linear (NL), both the characterization of stability and the frequency-domain description of performance is lost. Most research on NL control systems focuses solely on <em>stability</em>, since this is often a very hard property to study. Therefore, the aspect of <em>performance</em> is not even touched upon in most cases.</p>
+
+<h1 id="my-work">My Work</h1>
+
+<p>The starting point of my work a set of tools that engineers use for LTI systems: the Bode and Nyquist diagram. Because of the unreasonable effectiveness of these tools in practice, my aim is to provide practical versions of these for NL systems.</p>
+
+<p>The main modern tool I use is the Scaled Relative Graph (SRG) [1], which can be seen as a generalization of the spectrum of an operator. Chaffey et al. [2] took notice of this development in monotone operator theory and applied it to the analysis of feedback systems.</p>
+
+<p>As pointed out in [2], the SRG has an intimate connection to the Nyquist diagram of a stable LTI system, and offers the same graphical interpretation of slope-restricted nonlinearities as the circle criterion. Our first work [3] shows how to apply SRG analysis to <strong>unstable</strong> LTI systems in the loop. A corollary of [3] is that SRG analysis fully reproduces the circle criterion, gives $L_2$-gain bounds, and generalizes the circle criterion by including dynamic nonlinearities.</p>
+
+<p>Where [3] extends the range of applicability of SRG stability analysis by leveraging the Nyquist stability criterion, our second work [4] aims to extend the Bode diagram to NL systems. We leverage the property of incrementally stable systems that they preserve the periodicity of the input to compute <strong>frequency-dependent gain bounds</strong>. By plotting these bounds as magnitudes as function of frequency, one obtains a <em>nonlinear Bode plot</em>. These NL Bode plots can be made for open-loop and closed-loop systems, which allows for the definition of the corresponding <em>bandwidths</em> as well.</p>
+
+<h2 id="references">References</h2>
+
+<p>[1] Ryu, Ernest K., Robert Hannah, and Wotao Yin. “Scaled relative graphs: Nonexpansive operators via 2D Euclidean geometry.” <em>Mathematical Programming</em> 194.1 (2022): 569-619.</p>
+
+<p>[2] Chaffey, Thomas, Fulvio Forni, and Rodolphe Sepulchre. “Scaled relative graphs for system analysis.” <em>2021 60th IEEE Conference on Decision and Control (CDC).</em> IEEE, 2021.</p>
+
+<p>[3] Krebbekx, J. P. J., Tóth, R., &amp; Das, A. (2024). Scaled Relative Graph Analysis of Lur’e Systems and the Generalized Circle Criterion. arXiv preprint arXiv:2411.18318 (<a href="https://arxiv.org/abs/2411.18318">arXiv link</a>). <em>Accepted for European Control Conference 2025.</em></p>
+
+<p>[4] Krebbekx, J. P. J., Tóth, R., &amp; Das, A. (2025). Nonlinear Bandwidth and Bode Diagrams based on Scaled Relative Graphs. arXiv preprint arXiv:2411.18318 (<a href="https://arxiv.org/abs/2504.01585">arXiv link</a>). <em>Submitted for the 64th Conference on Decision and Control 2025.</em></p>
 
 </div>
 
