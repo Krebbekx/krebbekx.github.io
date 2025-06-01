@@ -4,7 +4,7 @@ title: Publications
 ---
 
 # Under Review
-- Krebbekx, J. P. J., Tóth, R., & Das, A. (2025). Nonlinear Bandwidth and Bode Diagrams based on Scaled Relative Graphs. arXiv preprint arXiv:2411.18318 ([arXiv link](https://arxiv.org/abs/2411.18318)). Submitted for the 64th Conference on Decision and Control 2025.
+- Krebbekx, J. P. J., Tóth, R., & Das, A. (2025). Nonlinear Bandwidth and Bode Diagrams based on Scaled Relative Graphs. arXiv preprint arXiv:2411.18318 ([arXiv link](https://arxiv.org/abs/2504.01585)). Submitted for the 64th Conference on Decision and Control 2025.
 
 # 2025
 - Krebbekx, J. P. J., Tóth, R., & Das, A. (2025). Scaled Relative Graph Analysis of Lur’e Systems and the Generalized Circle Criterion. Abstract, presented at the 44th Benelux Meeting on Systems and Control 2025.
