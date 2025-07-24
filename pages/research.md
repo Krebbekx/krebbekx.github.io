@@ -27,4 +27,4 @@ Where [3] extends the range of applicability of SRG stability analysis by levera
 
 [3] Krebbekx, J. P. J., Tóth, R., & Das, A. (2024). Scaled Relative Graph Analysis of Lur'e Systems and the Generalized Circle Criterion. arXiv preprint arXiv:2411.18318 ([arXiv link](https://arxiv.org/abs/2411.18318)). _Accepted for European Control Conference 2025._
 
-[4] Krebbekx, J. P. J., Tóth, R., & Das, A. (2025). Nonlinear Bandwidth and Bode Diagrams based on Scaled Relative Graphs. arXiv preprint arXiv:2411.18318 ([arXiv link](https://arxiv.org/abs/2504.01585)). _Submitted for the 64th Conference on Decision and Control 2025._
+[4] Krebbekx, J. P. J., Tóth, R., & Das, A. (2025). Nonlinear Bandwidth and Bode Diagrams based on Scaled Relative Graphs. arXiv preprint arXiv:2411.18318 ([arXiv link](https://arxiv.org/abs/2504.01585)). _Accepted for the 64th Conference on Decision and Control 2025._
