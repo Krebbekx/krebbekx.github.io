@@ -17,7 +17,7 @@ The main modern tool I use is the Scaled Relative Graph (SRG) [1], which can be 
 
 As pointed out in [2], the SRG has an intimate connection to the Nyquist diagram of a stable LTI system, and offers the same graphical interpretation of slope-restricted nonlinearities as the circle criterion. Our first work [3] shows how to apply SRG analysis to **unstable** LTI systems in the loop. A corollary of [3] is that SRG analysis fully reproduces the circle criterion, gives $L_2$-gain bounds, and generalizes the circle criterion by including dynamic nonlinearities.
 
-Where [3] extends the range of applicability of SRG stability analysis by leveraging the Nyquist stability criterion, our second work [4] aims to extend the Bode diagram to NL systems. We leverage the property of incrementally stable systems that they preserve the periodicity of the input to compute **frequency-dependent gain bounds**. By plotting these bounds as magnitudes as function of frequency, one obtains a _nonlinear Bode plot_. These NL Bode plots can be made for open-loop and closed-loop systems, which allows for the definition of the corresponding _bandwidths_ as well. 
+Where [3] extends the range of applicability of SRG stability analysis by leveraging the Nyquist stability criterion, our second work [4] aims to extend the Bode diagram to NL systems. We leverage the property that many nonlinear systems preserve the periodicity of the input to compute **frequency-dependent gain bounds**. By plotting these bounds as magnitudes as function of frequency, one obtains a _nonlinear Bode plot_. These NL Bode plots can be made for open-loop and closed-loop systems, which allows for the definition of the corresponding _bandwidths_ as well. 
 
 ## References
 
