@@ -21,6 +21,8 @@ As pointed out in [2], the SRG has an intimate connection to the Nyquist diagram
 
 The conference paper [3] is extended to a full journal paper in [4], where the analysis of unstable systems is extended to _arbitrary_ interconnections of systems, thus going beyond the Lur'e system which was the focus of [3]. Additionally, we show in [5] how the tools in [3] may be used to design reset/hybrid controllers for _unstable_ open-loop plants.
 
+An alternative and more general way to study unstable systems using SRG-based methods is through the so-called _hard SRG_ [8]. In [9], we develop a method to exactly compute the hard SRG of real rational transfer matrices. We also prove that in the SISO case, the hard SRG is identical to the extended SRG from [3]. In [9], we also discuss the hard SRG as surrogate for MIMO Nyquist criteria, and show how it can be used for graphical controller tuning.
+
 ## Nonlinear Bode Diagrams and Frequency-Domain Analysis
 
 Where [3],[4] extend the range of applicability of SRG stability analysis by leveraging the Nyquist stability criterion, our second work [6] aims to extend the Bode diagram to NL systems. We leverage the property that many nonlinear systems preserve the periodicity of the input to compute **frequency-dependent gain bounds**. By plotting these bounds as magnitudes as function of frequency, one obtains a _nonlinear Bode plot_. These NL Bode plots can be made for open-loop and closed-loop systems, which allows for the definition of the corresponding _bandwidths_ as well. 
@@ -44,6 +46,10 @@ In our recent paper [7], we develop a complete and mathematically rigorous frame
 
 [5] Krebbekx, J. P. J., Tóth, R., & Das, A. (2025). "Reset Controller Analysis and Design for Unstable Linear Plants using Scaled Relative Graphs." arXiv preprint arXiv:2506.13518 ([arXiv link](https://arxiv.org/abs/2506.13518v2)). _Submitted to Automatica as a technical communique._
 
-[6] Krebbekx, J. P. J., Tóth, R., & Das, A. (2025). Nonlinear Bandwidth and Bode Diagrams based on Scaled Relative Graphs. arXiv preprint arXiv:2411.18318 ([arXiv link](https://arxiv.org/abs/2504.01585)). _Accepted for the 64th Conference on Decision and Control 2025._
+[6] Krebbekx, J. P. J., Tóth, R., & Das, A. (2025). Nonlinear Bandwidth and Bode Diagrams based on Scaled Relative Graphs. arXiv preprint arXiv:2504.01585 ([arXiv link](https://arxiv.org/abs/2504.01585)). _Accepted for the 64th Conference on Decision and Control 2025._
 
 [7] Krebbekx, J. P. J., Tóth, R., & Das, A. (2025). "Graphical Analysis of Nonlinear Multivariable Feedback Systems." arXiv preprint arXiv:2507.16513 ([arXiv link](https://arxiv.org/abs/2507.16513)). _Submitted to IEEE-TAC as a full paper._
+
+[8] Chen, Chao, Sei Zhen Khong, and Rodolphe Sepulchre (2025). "Soft and Hard Scaled Relative Graphs for Nonlinear Feedback Stability."
+
+[9] Krebbekx, J. P. J., Baron-Prada, E., Tóth, R., & Das, A. (2025). "Computing the Hard Scaled Relative Graph of LTI Systems." arXiv preprint arXiv:2511.17297 ([arXiv link](https://arxiv.org/abs/2511.17297)).
