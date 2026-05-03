@@ -36,20 +36,20 @@ In our recent paper [7], we develop a complete and mathematically rigorous frame
 
 ## References
 
-[1] Ryu, Ernest K., Robert Hannah, and Wotao Yin. "Scaled relative graphs: Nonexpansive operators via 2D Euclidean geometry." _Mathematical Programming_ 194.1 (2022): 569-619.
+[1] Ryu, Ernest K., Robert Hannah, and Wotao Yin. "Scaled relative graphs: Nonexpansive operators via 2D Euclidean geometry." _Mathematical Programming_ 194.1, pp. 569-619, 2022.
 
-[2] Chaffey, Thomas, Fulvio Forni, and Rodolphe Sepulchre. "Scaled relative graphs for system analysis." _2021 60th IEEE Conference on Decision and Control (CDC)._ IEEE, 2021.
+[2] Chaffey, Thomas, Fulvio Forni, and Rodolphe Sepulchre. "Scaled relative graphs for system analysisn," in _2021 60th IEEE Conference on Decision and Control (CDC),_ 2021.
 
-[3] Krebbekx, J. P. J., Tóth, R., & Das, A. (2024). Scaled Relative Graph Analysis of Lur'e Systems and the Generalized Circle Criterion. arXiv preprint arXiv:2411.18318 ([arXiv link](https://arxiv.org/abs/2411.18318)). _Accepted for European Control Conference 2025._
+[3] J. P. J. Krebbekx, R. Tóth, and A. Das, "Scaled Relative Graph Analysis of Lur'e Systems and the Generalized Circle Criterion," in _2025 European Control Conference (ECC)_, 2025. ([arXiv link](https://arxiv.org/abs/2411.18318)).
 
-[4] Krebbekx, J. P. J., Tóth, R., & Das, A. (2025). "Scaled Relative Graph Analysis of General Interconnections of SISO Nonlinear Systems." arXiv preprint arXiv:2507.15564 ([arXiv link](https://arxiv.org/abs/2507.15564)).
+[4] J. P. J. Krebbekx, R. Tóth, and A. Das, "Scaled Relative Graph Analysis of General Interconnections of SISO Nonlinear Systems." arXiv preprint arXiv:2507.15564 ([arXiv link](https://arxiv.org/abs/2507.15564)), 2025.
 
-[5] Krebbekx, J. P. J., Tóth, R., & Das, A. (2025). "Reset Controller Analysis and Design for Unstable Linear Plants using Scaled Relative Graphs." arXiv preprint arXiv:2506.13518 ([arXiv link](https://arxiv.org/abs/2506.13518v2)). _Submitted to Automatica as a technical communique._
+[5] J. P. J. Krebbekx, R. Tóth, and A. Das, "Reset Controller Analysis and Design for Unstable Linear Plants using Scaled Relative Graphs." arXiv preprint arXiv:2506.13518 ([arXiv link](https://arxiv.org/abs/2506.13518v2)), 2025.
 
-[6] Krebbekx, J. P. J., Tóth, R., & Das, A. (2025). Nonlinear Bandwidth and Bode Diagrams based on Scaled Relative Graphs. arXiv preprint arXiv:2504.01585 ([arXiv link](https://arxiv.org/abs/2504.01585)). _Accepted for the 64th Conference on Decision and Control 2025._
+[6] J. P. J. Krebbekx, R. Tóth, and A. Das, "Nonlinear Bandwidth and Bode Diagrams based on Scaled Relative Graphs," in _2025 IEEE 64th Conference on Decision and Control (CDC),_ 2025. ([arXiv link](https://arxiv.org/abs/2504.01585)).
 
-[7] Krebbekx, J. P. J., Tóth, R., & Das, A. (2025). "Graphical Analysis of Nonlinear Multivariable Feedback Systems." arXiv preprint arXiv:2507.16513 ([arXiv link](https://arxiv.org/abs/2507.16513)). _Submitted to IEEE-TAC as a full paper._
+[7] J. P. J. Krebbekx, R. Tóth, and A. Das, "Analysis of Non-Square Nonlinear MIMO Systems using Scaled Relative Graphs." arXiv preprint arXiv:2507.16513 ([arXiv link](https://arxiv.org/abs/2507.16513)), 2025 (updated 2026).
 
 [8] Chen, Chao, Sei Zhen Khong, and Rodolphe Sepulchre (2025). "Soft and Hard Scaled Relative Graphs for Nonlinear Feedback Stability."
 
-[9] Krebbekx, J. P. J., Baron-Prada, E., Tóth, R., & Das, A. (2025). "Computing the Hard Scaled Relative Graph of LTI Systems." arXiv preprint arXiv:2511.17297 ([arXiv link](https://arxiv.org/abs/2511.17297)).
+[9] J. P. J. Krebbekx, E. Baron-Prada, R. Tóth, and A. Das, "Computing the Hard Scaled Relative Graph of LTI Systems." arXiv preprint arXiv:2511.17297 ([arXiv link](https://arxiv.org/abs/2511.17297)), 2025.
